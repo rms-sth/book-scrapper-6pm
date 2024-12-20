@@ -2,11 +2,9 @@ import requests
 import sqlite3
 from bs4 import BeautifulSoup
 
-URL = "http://books.toscrape.com/"
-
 # git config --global user.name "Ramesh Pradhan"
 # git config --global user.email "pyrameshpradhan@gmail.com"
-
+# This is git tutorial
 no_of_pages = 50
 
 page = 1
