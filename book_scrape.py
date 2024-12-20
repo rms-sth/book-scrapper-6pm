@@ -24,7 +24,7 @@ from bs4 import BeautifulSoup
 # 3. git push origin
 
 
-no_of_pages = 50
+NO_OF_PAGES = 50
 
 page = 1
 URL = f"https://books.toscrape.com/catalogue/page-{page}.html"
@@ -81,7 +81,7 @@ def scrape_book(url):
 
 create_database()
 
-while page <= no_of_pages:
+while page <= NO_OF_PAGES:
     scrape_book(URL)
     page = page + 1
     URL = f"https://books.toscrape.com/catalogue/page-{page}.html"
